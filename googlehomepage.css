@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+header li img {
+  height: 20px;
+}
+
+header li {
+  padding: 0.5rem;
+}
+
+#underline:hover {
+  cursor: pointer;
+  text-decoration: underline gray;
+}
+
+#menu {
+  height: 0.8rem;
+}
+
+#user {
+  height: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.googlegif {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.searchbox {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  width: 33%;
+  padding: 0.2rem;
+  border-radius: 2.5rem;
+}
+
+.searchbox:hover {
+  box-shadow: 1px 1.5px 2px 1.5px grey;
+}
+
+.searchbox img {
+  height: 1.5rem;
+}
+
+.searchbox input {
+  width: 90%;
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+}
+
+.buttons button {
+  margin-top: 1.5rem;
+  border: none;
+  padding: 0.5rem;
+
+  border-radius: 6px;
+}
+
+.languages {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.languages p span {
+  color: blue;
+  margin-left: 0.3rem;
+}
+
+footer {
+  margin-top: 10rem;
+  background: #f2f2f2;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.india {
+  padding: 0.5rem;
+  margin-left: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.india img {
+  height: 1.5rem;
+}
+
+.lowfooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+
+.lowfooter ul li {
+  padding: 0.5rem;
+}
