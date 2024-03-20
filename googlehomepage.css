@@ -10,8 +10,8 @@ body {
   background: #fff;
 }
 
-header{
-  margin-bottom: 7rem;
+header {
+  margin-bottom: 2rem;
 }
 
 header ul {
@@ -101,7 +101,7 @@ main {
 }
 
 footer {
-  margin-top: 10rem;
+  margin-top: 5rem;
   background: #f2f2f2;
 }
 
@@ -131,20 +131,317 @@ footer ul {
   padding: 0.5rem;
 }
 
-@media screen and (min-width: 1200px){
-    main{
-    height: 52vh;
+/* For mobile Devices */
+
+@media screen and (min-width: 370px) {
+  body {
+    background: #fff;
   }
-    .searchbox {
-  display: flex;
-  justify-content: center;
-  border: 1px solid grey;
-  width: 30%;
-  padding: 0.2rem;
-  border-radius: 2.5rem;
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    font-size: 0.6rem;
+  }
+
+  #underline:hover {
+    cursor: pointer;
+    text-decoration: underline gray;
+  }
+
+  #menu {
+    height: 0.5rem;
+  }
+
+  #user {
+    height: 1.3rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .googlegif {
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .searchbox {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 65%;
+    padding: 0.2rem;
+    border-radius: 2.5rem;
+  }
+  .searchbox img {
+    height: 1rem;
+  }
+
+  .buttons button {
+    margin-top: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 1.3rem;
+    border-radius: 6px;
+    font-size: 0.5rem;
+  }
+
+  .languages {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .languages p {
+    font-size: 0.6rem;
+  }
+
+  .languages p span {
+    color: blue;
+    margin-left: 0.2rem;
+  }
+
+  footer {
+    margin-top: 14.5rem;
+    background: #f2f2f2;
+    font-size: 0.5rem;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .india {
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .india img {
+    height: 0.9rem;
+  }
+
+  .lowfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+  }
+
+  .lowfooter ul li {
+    padding: 0.3rem;
+  }
 }
-  footer{
-    margin-top: 11rem;
+
+/* For Tablets and ipads*/
+
+@media screen and (min-width: 500px) {
+  body {
+    background: #fff;
   }
-  
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .googlegif {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .searchbox {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 60%;
+    padding: 0.2rem;
+    border-radius: 2.5rem;
+  }
+
+  .searchbox img {
+    height: 10rem;
+  }
+
+  .buttons button {
+    margin-top: 2rem;
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 1.3rem;
+    border-radius: 6px;
+  }
+
+  .languages {
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+  }
+
+  .languages p span {
+    color: blue;
+    margin-left: 0.2rem;
+  }
+
+  footer {
+    margin-top: 29rem;
+    background: #f2f2f2;
+    font-size: 0.5rem;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .india {
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .india img {
+    height: 1.5rem;
+  }
+
+  .lowfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+  }
+
+  .lowfooter ul li {
+    padding: 0.3rem;
+  }
+}
+
+/* For Laptops and Desktops */
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: #fff;
+  }
+
+  header ul {
+    font-size: 0.9rem;
+  }
+
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  #menu {
+    height: 0.8rem;
+  }
+
+  #user {
+    height: 1.8rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .googlegif {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .searchbox {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 35%;
+    padding: 0.2rem;
+    border-radius: 2.5rem;
+  }
+
+  .searchbox img {
+    height: 1.5rem;
+  }
+
+  .buttons button {
+    margin-top: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 1.3rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+  }
+
+  .languages {
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+  }
+
+  .languages p span {
+    color: blue;
+    margin-left: 0.3rem;
+  }
+
+  .languages p {
+    font-size: 1rem;
+  }
+
+  footer {
+    margin-top: 7.1rem;
+    background: #f2f2f2;
+    font-size: 0.9rem;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .india {
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .india img {
+    height: 1.4rem;
+  }
+
+  .lowfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+  }
+
+  .lowfooter ul li {
+    padding: 0.5rem;
+  }
 }
