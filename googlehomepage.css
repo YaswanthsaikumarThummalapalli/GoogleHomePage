@@ -135,6 +135,14 @@ footer ul {
     main{
     height: 52vh;
   }
+    .searchbox {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  width: 40%;
+  padding: 0.2rem;
+  border-radius: 2.5rem;
+}
   footer{
     margin-top: 11rem;
   }
