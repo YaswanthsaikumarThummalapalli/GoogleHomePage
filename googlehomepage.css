@@ -124,3 +124,10 @@ footer ul {
 .lowfooter ul li {
   padding: 0.5rem;
 }
+
+@media screen and (min-width: 1200px){
+  footer{
+    margin-top: 13rem;
+  }
+  
+}
