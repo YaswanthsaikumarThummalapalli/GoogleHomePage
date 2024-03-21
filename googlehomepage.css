@@ -35,7 +35,7 @@ header li {
   cursor: pointer;
   text-decoration: underline gray;
   text-transform: uppercase;
-  transition: 0.8s;
+  transition: 1s;
 }
 
 #menu {
@@ -98,7 +98,7 @@ main {
 .buttons button:hover {
   background: tomato;
   text-transform: uppercase;
-  transition: 0.8s;
+  transition: 1s;
 }
 
 .languages {
